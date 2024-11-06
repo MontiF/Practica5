@@ -12,8 +12,8 @@ int main() {
 	scanf("%d", &estudiantes);
 
 	double calificacion[estudiantes];
-	double minima = calificacion[0];
 	double maxima = calificacion[0];
+	double minima = calificacion[0];
 	int persona_maxima;
 	int persona_minima;
 
@@ -48,8 +48,8 @@ int main() {
 
 	printf("Número de estudiantes aprobados: %d\n", aprobados);
 	printf("Número de estudiantes suspendidos: %d\n", suspensos);
-	printf("Nota máxima: %lf estudiante número: %d\n", maxima, persona_maxima);
-	printf("Nota mínima: %lf estudainte número: %d\n", minima, persona_minima);
+	printf("Nota máxima: %.2lf estudiante número: %d\n", maxima, persona_maxima);
+	printf("Nota mínima: %.2lf estudiante número: %d\n", minima, persona_minima);
 
 return 0;
 }
