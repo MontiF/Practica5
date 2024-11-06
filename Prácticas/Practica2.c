@@ -51,31 +51,5 @@ int main() {
 	printf("Nota máxima: %lf estudiante número: %d\n", maxima, persona_maxima);
 	printf("Nota mínima: %lf estudainte número: %d\n", minima, persona_minima);
 
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 return 0;
 }
