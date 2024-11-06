@@ -12,8 +12,8 @@ int main() {
 	scanf("%d", &estudiantes);
 
 	double calificacion[estudiantes];
-	double maxima = calificacion[0];
-	double minima = calificacion[0];
+	double maxima = 0;
+	double minima = 20;
 	int persona_maxima;
 	int persona_minima;
 
